@@ -6,8 +6,8 @@ import java.sql.SQLException;
 
 public class ConexionBD {
     private static final String URL = "jdbc:mysql://localhost:3306/ganado_db";
-    private static final String USUARIO = "root"; // ⚠️ Cambiá si usás otro usuario
-    private static final String CONTRASEÑA = "2187";  // ⚠️ Si tenés contraseña, escribila
+    private static final String USUARIO = "root"; 
+    private static final String CONTRASEÑA = "2187";  
 
     public static Connection conectar() {
         try {
