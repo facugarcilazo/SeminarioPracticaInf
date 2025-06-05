@@ -82,7 +82,7 @@ public class VentanaAlertasActivas extends JFrame {
             }
 
             if (alertas.length() == 0) {
-                areaAlertas.setText("✅ No hay alertas activas por el momento.");
+                areaAlertas.setText("✅ No hay alertas activas.");
             } else {
                 areaAlertas.setText(alertas.toString());
             }
